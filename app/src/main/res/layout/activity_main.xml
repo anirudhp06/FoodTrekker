@@ -9,9 +9,20 @@
     <include layout="@layout/header"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FFEB3B">
-
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Enter Your Location"
+            android:layout_marginTop="8dp"/>
+        <Spinner
+            android:id="@+id/spinner_dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="140dp"/>
     </RelativeLayout>
 
 </LinearLayout>
