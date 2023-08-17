@@ -1,0 +1,2 @@
+## Gradle Build Status
+[![Android CI](https://github.com/anirudhp06/FoodTrekker/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/anirudhp06/FoodTrekker/actions/workflows/android.yml)
