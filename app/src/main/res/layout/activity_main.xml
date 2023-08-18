@@ -23,6 +23,14 @@
             android:backgroundTint="#9C27B0"
             android:spinnerMode="dropdown"
             android:layout_marginLeft="140dp"/>
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="TextView"
+            android:textSize="25sp" />
     </RelativeLayout>
 
 </LinearLayout>
