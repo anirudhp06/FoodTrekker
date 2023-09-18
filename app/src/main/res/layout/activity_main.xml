@@ -7,30 +7,157 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
     <include layout="@layout/header"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:layout_marginTop="8sp"
             android:text="Enter Your Location"
-            android:layout_marginTop="8dp"/>
+            android:textSize="15dp" />
+
         <Spinner
             android:id="@+id/spinner_dropdown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
             android:backgroundTint="#9C27B0"
-            android:spinnerMode="dropdown"
-            android:layout_marginLeft="140dp"/>
+            android:spinnerMode="dropdown" />
 
         <TextView
             android:id="@+id/info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
-            android:text="TextView"
+            android:text=""
             android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="58dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="210dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="210dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/h1_details"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="240dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:editable="false"/>
+
+        <Button
+            android:id="@+id/call1"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="215dp"
+            android:text="📞" />
+
+        <Button
+            android:id="@+id/map1"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="250dp"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:text="📌" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="58dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="430dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="430dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/h3_details"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="460dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:editable="false" />
+
+        <Button
+            android:id="@+id/call3"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="415dp"
+            android:text="📞" />
+
+        <Button
+            android:id="@+id/map3"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="460dp"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:text="📌" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="58dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="330dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="330dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/h2_details"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="360dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:editable="false" />
+
+        <Button
+            android:id="@+id/call2"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="315dp"
+            android:text="📞" />
+
+        <Button
+            android:id="@+id/map2"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="360dp"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:text="📌" />
+
     </RelativeLayout>
 
 </LinearLayout>
