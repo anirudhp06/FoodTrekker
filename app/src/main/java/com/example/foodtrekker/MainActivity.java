@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         case "Hasan":
                             info.setText("As of now no hotels are registered in Hasan, Regret " +
                                     "for Inconvenience.");
+                            invisible();
                             break;
                         default:
                             Toast.makeText(MainActivity.this,"Invalid Option",Toast.LENGTH_LONG).show();
