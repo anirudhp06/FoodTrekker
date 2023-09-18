@@ -71,7 +71,8 @@ public class MainActivity extends AppCompatActivity {
                             bangalore();
                             break;
                         case "Hasan":
-                            hasan();
+                            info.setText("As of now no hotels are registered in Hasan, Regret " +
+                                    "for Inconvenience.");
                             break;
                         default:
                             Toast.makeText(MainActivity.this,"Invalid Option",Toast.LENGTH_LONG).show();
@@ -143,7 +144,59 @@ public class MainActivity extends AppCompatActivity {
         visible();
     }
 
-    public void bangalore(){}
+    public void bangalore(){
+        img1.setImageResource(R.drawable.palladium_blr);
+        hotel1.setText("Hotel Palladium");
+        hotel1_details.setText("Hotel located in Bangalore good place for resting.");
+        call1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                call("2323252121");
+            }
+        });
+
+        map1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                map("12.978893801339906, 77.57951232624052");
+            }
+        });
+
+        img2.setImageResource(R.drawable.bangalore_gate_blr);
+        hotel2.setText("Bangalore Gate Hotel");
+        hotel2_details.setText("Hotel Near to Majestic, excellent for meetings");
+        call2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                call("0987654321");
+            }
+        });
+        map2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                map("12.973794556814324, 77.57919369555425");
+            }
+        });
+
+        img3.setImageResource(R.drawable.shangri_la_blr);
+        hotel3.setText("Shangri La Bangalore");
+        hotel3_details.setText("Excellent hotel for occasions like marriage party, " +
+                "offers roof top dining");
+        call3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                call("7854965123");
+            }
+        });
+
+        map3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                map("12.992058162833168, 77.58817497836102");
+            }
+        });
+        visible();
+    }
 
     public void hasan(){}
     public void invisible(){
